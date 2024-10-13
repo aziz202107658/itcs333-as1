@@ -1,0 +1,91 @@
+
+<!-- Done by wejdan abdulla creat the
+html page   body , head, link css page , Navigation bar to hyperlink the web Categories 
+footer and section and div and make sure there no any error -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunShine Kindergarten</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to the Fun-Filled World of Sunshine Kindergarten!</h1>
+        <p>Where Every Day is a New Adventure!</p>
+    </header>
+
+    <nav>
+        <a href="#schedule">Activity Schedule</a>
+        <a href="#gallery">Photo Gallery</a>
+        <a href="#Announcements">New Announcements</a>
+        <a href="#teacher">Teachers</a>
+    </nav>
+
+    <main>
+
+        <section id="schedule">
+            <h2>Activity Schedule</h2>
+            <ol>
+                <li>Sunday: Chemistry Fun</li>
+                <li>Monday: Arts and Crafts</li>
+                <li>Tuesday: Story Time</li>
+                <li>Wednesday: Outdoor Play</li>
+                <li>Thursday: Planting Trees</li>
+            </ol>
+        </section>
+
+        <section id="gallery">
+            <h2>Photo Gallery</h2>
+            <div class="gallery">
+                <img src="https://centerforhealthjournalism.org/sites/default/files/styles/article_featured_image/public/images/prep-kids-title-img.jpeg?itok=TfyO0rSJ"
+                    alt="Day 1">
+                <img src="https://plus.unsplash.com/premium_photo-1663106419176-ab3e42499a5c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Day 2">
+                <img src="https://plus.unsplash.com/premium_photo-1682750328846-2afbbd05d5a6?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Day 3">
+                <img src="https://plus.unsplash.com/premium_photo-1663089306748-2203da8e7757?q=80&w=1135&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Day 4">
+            </div>
+        </section>
+
+        <section id="Announcements">
+            <h2>Announcements</h2>
+            <p>New Announcements</p>
+            <ol>
+                <li><a href="#">New Events</a></li>
+                <li><a href="#">Day for Parent Meeting</a></li>
+            </ol>
+        </section>
+
+        <section id="teacher">
+            <h2>Teachers</h2>
+            <p>Teacher Maryam Mohammed is a graduate of the University of Bahrain Kindergarten and has 9 years of
+                experience in teaching children.
+                Phone Number: 33330000
+                Email: maryam0000@gmail.com
+            </p>
+            <p>Teacher Sarah is a chemistry graduate and has experience in conducting fun experiments for children.
+                Phone Number: 34434434
+                Email: saraaa4444@hotmail.com
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Sunshine Kindergarten. All rights reserved. Created by Wejdan Abdulla 20175004-1 and Abdullaaziz Nsser
+            202107658-8. 2024-2025</p>
+    </footer>
+
+</body>
+
+</html>
