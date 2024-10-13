@@ -1,8 +1,8 @@
-
 <!-- Done by wejdan abdulla creat the
-html page   body , head, link css page , Navigation bar to hyperlink the web Categories 
-footer and section and div and make sure there no any error -->
-
+html page  section for schadule ,teacher  ,gallery and  
+Announcements from line 46 to line 92 
+and 
+also to make sure there no any error -->
 
 
 
@@ -11,8 +11,16 @@ footer and section and div and make sure there no any error -->
 
 <head>
     <meta charset="UTF-8">
+
+    <!-- The viewing window is the user interface for web site page and  
+    It varies by device “ it will be smaller on a mobile phone than 
+    computer screen” --->
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SunShine Kindergarten</title>
+
+    <!--link css page --->
+        
     <link href="style.css" rel="stylesheet">
 
 </head>
@@ -24,6 +32,8 @@ footer and section and div and make sure there no any error -->
         <p>Where Every Day is a New Adventure!</p>
     </header>
 
+    
+<!--Navigation bar to hyperlink the web Categories-->
     <nav>
         <a href="#schedule">Activity Schedule</a>
         <a href="#gallery">Photo Gallery</a>
@@ -32,8 +42,9 @@ footer and section and div and make sure there no any error -->
     </nav>
 
     <main>
+        
 
-        <section id="schedule">
+      <section id="schedule">
             <h2>Activity Schedule</h2>
             <ol>
                 <li>Sunday: Chemistry Fun</li>
@@ -44,6 +55,7 @@ footer and section and div and make sure there no any error -->
             </ol>
         </section>
 
+        
         <section id="gallery">
             <h2>Photo Gallery</h2>
             <div class="gallery">
@@ -81,6 +93,12 @@ footer and section and div and make sure there no any error -->
         </section>
     </main>
 
+
+
+
+
+
+    
     <footer>
         <p>&copy; Sunshine Kindergarten. All rights reserved. Created by Wejdan Abdulla 20175004-1 and Abdullaaziz Nsser
             202107658-8. 2024-2025</p>
